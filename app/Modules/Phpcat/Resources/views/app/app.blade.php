@@ -115,7 +115,7 @@ https://templatemo.com/tm-562-space-dynamic
 
                         @import url(https://fonts.googleapis.com/css?family=Festive);
 
-                        /* body {
+                        .body {
                             padding: 0;
                             margin: 0;
                             height: 50vh;
@@ -123,7 +123,7 @@ https://templatemo.com/tm-562-space-dynamic
                             place-items: center;
                             overflow: hidden;
                             background-color: black;
-                        } */
+                        }
 
                         .conteiner1 {
                             display: flex;
@@ -171,9 +171,11 @@ https://templatemo.com/tm-562-space-dynamic
 
                     5555
 
+                    <div class="body">
                     <div class="conteiner1">
                         <h1>2022</h1>
                         <h2>HAPPY NEW YEAR</h2>
+                    </div>
                     </div>
 
 
