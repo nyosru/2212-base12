@@ -1,0 +1,10 @@
+data-cipostatus-status-formalized-id="<?php echo e($tmf_reg_queue_status_obj->cipostatus_status_formalized_id); ?>"
+data-tss-template-id="<?php echo e($tmf_reg_queue_status_obj->dashboard_tss_template_id); ?>"
+data-global-id="<?php echo e($tmf_reg_queue_status_obj->dashboard_global_status_id); ?>"
+data-description="<?php echo e($tmf_reg_queue_status_obj->description); ?>"
+data-warning-hrs="<?php echo e($tmf_reg_queue_status_obj->deadline_warning_hours); ?>"
+data-overdue-hrs="<?php echo e($tmf_reg_queue_status_obj->deadline_overdue_hours); ?>"
+data-status-color="<?php echo e($tmf_reg_queue_status_obj->status_color); ?>"
+data-root-id="<?php echo e($tmf_reg_queue_root_status_obj->id); ?>"
+data-flag-settings="<?php echo e(json_encode(\App\classes\queue\FlagSettingsData::tmfRegQueueStatus($tmf_reg_queue_status_obj->id)->get())); ?>"
+data-id="<?php echo e($tmf_reg_queue_status_obj->id); ?>"<?php /**PATH /var/www/html/in.trademarkfactory.com/resources/views/tmf-reg-queue-status-maintainer/sub-status-data-attrs.blade.php ENDPATH**/ ?>
