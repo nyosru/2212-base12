@@ -109,16 +109,13 @@ https://templatemo.com/tm-562-space-dynamic
                     <photos />
                 </div>
                 <div class="col-12 col-md-6">
-                    <h2 class="alert alert-warning text-center">
-                        {{ date('Y') }}&nbsp;год самое&nbsp;время реализовать вашу&nbsp;идею!
-                    </h2>
-
+               
                     <style>
                         @import url(https://fonts.googleapis.com/css?family=Roboto);
 
                         @import url(https://fonts.googleapis.com/css?family=Festive);
 
-                        body {
+                        /* body {
                             padding: 0;
                             margin: 0;
                             height: 50vh;
@@ -126,16 +123,16 @@ https://templatemo.com/tm-562-space-dynamic
                             place-items: center;
                             overflow: hidden;
                             background-color: black;
-                        }
+                        } */
 
-                        .conteiner {
+                        .conteiner1 {
                             display: flex;
                             justify-content: center;
                             align-items: center;
                             flex-direction: column;
                         }
 
-                        h1 {
+                        .conteiner1 h1 {
                             font-size: 15rem;
                             font-family: "Roboto";
                             font-weight: 900;
@@ -145,7 +142,7 @@ https://templatemo.com/tm-562-space-dynamic
 
                         }
 
-                        h2 {
+                        .conteiner1 h2 {
                             font-family: "Festive";
                             font-size: 3rem;
                             position: relative;
@@ -156,11 +153,11 @@ https://templatemo.com/tm-562-space-dynamic
                         }
 
                         @media only screen and (max-width: 600px) {
-                            h1 {
+                            .conteiner1 h1 {
                                 font-size: 11rem;
                             }
 
-                            h2 {
+                            .conteiner1 h2 {
                                 font-size: 2rem;
                                 position: relative;
                                 bottom: 160px;
@@ -174,7 +171,7 @@ https://templatemo.com/tm-562-space-dynamic
 
                     5555
 
-                    <div class="conteiner">
+                    <div class="conteiner1">
                         <h1>2022</h1>
                         <h2>HAPPY NEW YEAR</h2>
                     </div>
