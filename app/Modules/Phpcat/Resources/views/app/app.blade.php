@@ -109,77 +109,6 @@ https://templatemo.com/tm-562-space-dynamic
                     <photos />
                 </div>
                 <div class="col-12 col-md-6">
-               
-                    <style>
-                        @import url(https://fonts.googleapis.com/css?family=Roboto);
-
-                        @import url(https://fonts.googleapis.com/css?family=Festive);
-
-                        .body {
-                            padding: 0;
-                            margin: 0;
-                            height: 50vh;
-                            display: grid;
-                            place-items: center;
-                            overflow: hidden;
-                            background-color: black;
-                        }
-
-                        .conteiner1 {
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            flex-direction: column;
-                        }
-
-                        .conteiner1 h1 {
-                            font-size: 15rem;
-                            font-family: "Roboto";
-                            font-weight: 900;
-                            background-image: url(https://c.tenor.com/7k2yASJxRuEAAAAM/stars-twinkling.gif);
-                            -webkit-background-clip: text;
-                            -webkit-text-fill-color: transparent;
-
-                        }
-
-                        .conteiner1 h2 {
-                            font-family: "Festive";
-                            font-size: 3rem;
-                            position: relative;
-                            bottom: 230px;
-                            background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
-                            -webkit-background-clip: text;
-                            -webkit-text-fill-color: transparent;
-                        }
-
-                        @media only screen and (max-width: 600px) {
-                            .conteiner1 h1 {
-                                font-size: 11rem;
-                            }
-
-                            .conteiner1 h2 {
-                                font-size: 2rem;
-                                position: relative;
-                                bottom: 160px;
-                            }
-                        }
-                    </style>
-
-                    324234234
-
-                    ghbdtn
-
-                    5555
-
-                    <div class="body">
-                    <div class="conteiner1">
-                        <h1>2022</h1>
-                        <h2>HAPPY NEW YEAR</h2>
-                    </div>
-                    </div>
-
-
-
 
                     <h2 class="alert alert-warning text-center">
                         {{ date('Y') }}&nbsp;год самое&nbsp;время реализовать вашу&nbsp;идею!
@@ -195,6 +124,7 @@ https://templatemo.com/tm-562-space-dynamic
                         Набираюсь опыта и учусь быть норм тим/тех&nbsp;лидом, помогать вести группу(ы) IT специалистов
                         (тестеров, программисты, дизайнеров, верстальщиков), контроль качества и&nbsp;защита
                         от&nbsp;форс мажоров,
+                        <br />
                         <br />
                         Команда 3-7 человек было бы самое то, буду признателен если поможете найти такой вид
                         деятельности
