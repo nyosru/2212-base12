@@ -189,6 +189,10 @@ https://templatemo.com/tm-562-space-dynamic
 
                         {{ date('Y') }}&nbsp;год самое&nbsp;время реализовать вашу&nbsp;идею!
                     </h2>
+
+sdfsdfsdf
+
+
                     <p class="text-center">
                         Я&nbsp;Сергей&nbsp;Бакланов
                         <br />
