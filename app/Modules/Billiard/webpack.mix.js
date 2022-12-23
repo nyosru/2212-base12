@@ -52,7 +52,7 @@ mix
     );
 
 
-mix.js(__dirname + '/Resources/assets/js/app.js', 'public/billiard/vue.js')
+mix.js(__dirname + '/Resources/assets/js/app.js', 'public/billiard/js/vue.js')
     .vue();
 
 

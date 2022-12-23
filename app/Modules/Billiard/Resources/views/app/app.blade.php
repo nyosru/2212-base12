@@ -1046,6 +1046,6 @@
 
 </body>
 
-<script src="{{ asset('/billiard/vue.js?' . date('U')) }}"></script>
+<script src="{{ asset('/billiard/js/vue.js?' . date('U')) }}"></script>
 
 </html>
