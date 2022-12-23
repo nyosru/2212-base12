@@ -74,7 +74,6 @@ https://templatemo.com/tm-562-space-dynamic
 </head>
 
 <body>
-
     <div id="app">
 
         <div class="loader text-center" v-if="preloader == true">
