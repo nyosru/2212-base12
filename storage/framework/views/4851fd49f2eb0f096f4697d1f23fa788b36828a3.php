@@ -1,2 +1,0 @@
-<?php echo $__env->make('common-queue.change-status-modal', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
-<?php echo $__env->make('common-queue.js-calendar-modal', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /var/www/html/in.trademarkfactory.com/resources/views/common-queue/modals.blade.php ENDPATH**/ ?>

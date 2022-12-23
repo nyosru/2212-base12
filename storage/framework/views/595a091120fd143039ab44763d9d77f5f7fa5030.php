@@ -1,1 +1,0 @@
-<?php echo e($queue_status_data->type_name); ?> > <?php echo e($queue_status_data->queueRootStatus->name); ?> > <strong><?php echo e($queue_status_data->name); ?></strong><?php /**PATH /var/www/html/in.trademarkfactory.com/app/Modules/TMFXQ/Resources/views/random-check/queue-status-block.blade.php ENDPATH**/ ?>
