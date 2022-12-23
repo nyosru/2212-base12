@@ -38,6 +38,10 @@
 </head>
 
 <body>
+
+привет буфет
+
+
     {{-- <!-- Header Area wrapper Starts --> --}}
     @include('billiard::app.app-header')
     {{-- <!-- Header Area wrapper End --> --}}
