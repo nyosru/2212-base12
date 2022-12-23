@@ -39,8 +39,8 @@
 
 <body>
 
-привет буфет
-
+    <div id="app">
+    </div>
 
     {{-- <!-- Header Area wrapper Starts --> --}}
     @include('billiard::app.app-header')
@@ -993,5 +993,8 @@
     <script src="{{ asset('/billiard/js/main.js') }}"></script>
 
 </body>
+
+
+<script src="{{ asset('/phpcat/vue.js?' . date('U')) }}"></script>
 
 </html>
