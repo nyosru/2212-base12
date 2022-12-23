@@ -17,15 +17,15 @@ mix.copyDirectory(
 //     .sass( __dirname + '/Resources/assets/sass/app.scss', 'css/billiard.css');
 
 mix
-    // .options({
-    //     postCss: [
-    //         // require('postcss-css-variables')(),
-    //         processCssUrls: false
-    //     ]
-    // })
-    // ;
+// .options({
+//     postCss: [
+//         // require('postcss-css-variables')(),
+//         processCssUrls: false
+//     ]
+// })
+// ;
 
-    // mix
+// mix
     .styles(
         [
             __dirname + "/Resources/assets/css/main.css",
@@ -49,8 +49,12 @@ mix
         // , {
         //     precision: 5
         // }
-        )
-    ;
+    );
+
+
+mix.js(__dirname + '/Resources/assets/js/app.js', 'public/billiard/vue.js')
+    .vue();
+
 
 if (mix.inProduction()) {
     mix.version();

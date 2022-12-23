@@ -3,6 +3,8 @@
 
 @section('content')
 
+111
+
     <h2>@yield('content-head')</h2>
     @include('billiard::pages.'.$page)
 
