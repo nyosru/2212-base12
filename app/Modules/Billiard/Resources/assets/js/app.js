@@ -60,16 +60,14 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 // import PageIndex from    './components/Tehnologii.vue';
-import PageIndex from    './pages/index.vue';
+import PageIndex from './pages/index.vue';
 import PageTimeline from './pages/timeline.vue';
 import PageLern from './pages/lern.vue';
 import PageNews from './pages/News.vue';
 import PageTests from './pages/Tests.vue';
 import PageTorrent from './pages/Torrent.vue';
 
-
-const routes = [
-    {
+const routes = [{
         path: "/index",
         name: "index",
         //     //   component: Home
@@ -77,7 +75,7 @@ const routes = [
         //     //         // component: About1,
         // component: PageIndex
         components: {
-        //     leftMenu: LeftMenu,
+            //     leftMenu: LeftMenu,
             content: PageIndex
         }
     },
@@ -90,7 +88,7 @@ const routes = [
         //     //         // component: About1,
         // component: PageIndex
         components: {
-        //     leftMenu: LeftMenu,
+            //     leftMenu: LeftMenu,
             content: PageNews
         },
     },
@@ -103,7 +101,7 @@ const routes = [
         //     //         // component: About1,
         // component: PageIndex
         components: {
-        //     leftMenu: LeftMenu,
+            //     leftMenu: LeftMenu,
             content: PageTests
         }
     },
@@ -116,85 +114,85 @@ const routes = [
         //     //         // component: About1,
         // component: PageIndex
         components: {
-        //     leftMenu: LeftMenu,
+            //     leftMenu: LeftMenu,
             content: PageTorrent
         }
     },
 
-//     {
-//         path: "/modules/:module",
-//         name: "mod_start",
-//         components: {
-//             leftMenu: LeftMenu,
-//             // di_content: ModuleNavigator
-//             di_content: PageIndex
-//             // content: PageIndex
-//         }
-//     },
+    //     {
+    //         path: "/modules/:module",
+    //         name: "mod_start",
+    //         components: {
+    //             leftMenu: LeftMenu,
+    //             // di_content: ModuleNavigator
+    //             di_content: PageIndex
+    //             // content: PageIndex
+    //         }
+    //     },
 
-//     // {
-//     //     path: "/modules/:module/:item_id(\\d+)?/:action?",
-//     //     name: "item",
-//     //     //     //   component: Home
-//     //     // component: () => import(/* webpackChunkName: "about" */ './components/didrive/ModItems.vue' ),
-//     //     //     //         // component: About1,
-//     //     // component: ItemsPage
-//     //     // component: ModuleNavigator
-//     //     // component: items
-//     //     components: {
-//     //         leftMenu: leftMenu,
-//     //         content: ModuleNavigator
-//     //     }
-//     // },
+    //     // {
+    //     //     path: "/modules/:module/:item_id(\\d+)?/:action?",
+    //     //     name: "item",
+    //     //     //     //   component: Home
+    //     //     // component: () => import(/* webpackChunkName: "about" */ './components/didrive/ModItems.vue' ),
+    //     //     //     //         // component: About1,
+    //     //     // component: ItemsPage
+    //     //     // component: ModuleNavigator
+    //     //     // component: items
+    //     //     components: {
+    //     //         leftMenu: leftMenu,
+    //     //         content: ModuleNavigator
+    //     //     }
+    //     // },
 
-//     //     // {
-//     //     //     path: "/closer/routers",
-//     //     //     name: "closer-routes",
-//     //     //     //   component: Home
-//     //     //     // component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
-//     //     //     component: About1,
-//     //     // },
-//     //     // {
-//     //     //     path: "/closer/routers/list",
-//     //     //     name: "closer-routes-list",
-//     //     //     // route level code-splitting
-//     //     //     // this generates a separate chunk (about.[hash].js) for this route
-//     //     //     // which is lazy-loaded when the route is visited.
-//     //     //     //   component: () => import(/* webpackChunkName: "about" */ './views/AboutList.vue')
-//     //     //     component: About2,
-//     //     // },
+    //     //     // {
+    //     //     //     path: "/closer/routers",
+    //     //     //     name: "closer-routes",
+    //     //     //     //   component: Home
+    //     //     //     // component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
+    //     //     //     component: About1,
+    //     //     // },
+    //     //     // {
+    //     //     //     path: "/closer/routers/list",
+    //     //     //     name: "closer-routes-list",
+    //     //     //     // route level code-splitting
+    //     //     //     // this generates a separate chunk (about.[hash].js) for this route
+    //     //     //     // which is lazy-loaded when the route is visited.
+    //     //     //     //   component: () => import(/* webpackChunkName: "about" */ './views/AboutList.vue')
+    //     //     //     component: About2,
+    //     //     // },
 
-//     //     // {
-//     //     //     path: "/closer/comission",
-//     //     //     name: "comission",
-//     //     //     //   component: Home
-//     //     //     // component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
-//     //     //     component: comission,
-//     //     // },
+    //     //     // {
+    //     //     //     path: "/closer/comission",
+    //     //     //     name: "comission",
+    //     //     //     //   component: Home
+    //     //     //     // component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
+    //     //     //     component: comission,
+    //     //     // },
 
-//     //     // {
-//     //     //     path: "/closer/opportunities",
-//     //     //     name: "opportunities",
-//     //     //     //   component: Home
-//     //     //     // component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
-//     //     //     component: opportunities,
-//     //     // },
+    //     //     // {
+    //     //     //     path: "/closer/opportunities",
+    //     //     //     name: "opportunities",
+    //     //     //     //   component: Home
+    //     //     //     // component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
+    //     //     //     component: opportunities,
+    //     //     // },
 
-//     //     // {
-//     //     //     path: "/closer/calls",
-//     //     //     name: "calls",
-//     //     //     //   component: Home
-//     //     //     // component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
-//     //     //     component: calls,
-//     //     // },
+    //     //     // {
+    //     //     //     path: "/closer/calls",
+    //     //     //     name: "calls",
+    //     //     //     //   component: Home
+    //     //     //     // component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
+    //     //     //     component: calls,
+    //     //     // },
 
-//     //     // {
-//     //     //     path: "comission",
-//     //     //     name: "comission",
-//     //     //     //   component: Home
-//     //     //     // component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
-//     //     //     component: comission,
-//     //     // },
+    //     //     // {
+    //     //     //     path: "comission",
+    //     //     //     name: "comission",
+    //     //     //     //   component: Home
+    //     //     //     // component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
+    //     //     //     component: comission,
+    //     //     // },
 
     // { path: "/:pathMatch(.*)*", component: notFound }
 ];

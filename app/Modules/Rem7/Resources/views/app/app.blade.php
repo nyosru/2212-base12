@@ -117,7 +117,7 @@
 {{-- <script src="{{ asset('/module_rem7/js/contact-form-script.min.js') }}"></script> --}}
 
 {{-- <script src="{{ asset('/module_rem7/js/map.js') }}"></script> --}}
-{{-- <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script> --}}
+{{-- <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSy2HqyEcEnM1urFSIGEpvualYjwwM"></script> --}}
 
 @section('script')
 

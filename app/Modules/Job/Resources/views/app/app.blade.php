@@ -196,7 +196,7 @@ integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0
     {{-- <script src="{{ asset('/module_rem7/js/contact-form-script.min.js') }}"></script> --}}
 
     {{-- <script src="{{ asset('/module_rem7/js/map.js') }}"></script> --}}
-    {{-- <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script> --}}
+    {{-- <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyMi2HqyEcEnM1urFSIGEpvualYjwwM"></script> --}}
 
     @section('script')
     @show
